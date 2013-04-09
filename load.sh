@@ -10,5 +10,6 @@ done
 if [ -f ~/.vimrc ]
 	then
 	mv ~/.vimrc ~/.vimrc-backup
-	ln -s $DOTFILES/vimrc ~/.vimrc
 fi
+
+ln -s $DOTFILES/vimrc ~/.vimrc
