@@ -1,5 +1,5 @@
 #!/bin/sh
-DOTFILES=$( dirname "${BASH_SOURCE[0]}" )
+DOTFILES=$HOME/.dotfiles
 
 # loading aliases
 for alias_file in $DOTFILES/aliases/*
