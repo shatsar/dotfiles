@@ -4,7 +4,7 @@ DOTFILES=$HOME/.dotfiles
 # loading aliases
 for alias_file in $DOTFILES/aliases/*
 do
-	source $HOME/$alias_file
+	source $alias_file
 done
 
 if [ -f ~/.vimrc ]
