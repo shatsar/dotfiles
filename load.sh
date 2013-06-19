@@ -7,6 +7,9 @@ do
 	source $alias_file
 done
 
+# loading variables
+source $DOTFILES/variables
+
 if [ -f ~/.vimrc ]
 	then
 	mv ~/.vimrc ~/.vimrc-backup
