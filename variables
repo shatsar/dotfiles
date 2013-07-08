@@ -1,2 +1,10 @@
 export GEM_HOME=$HOME/.gems
 export EDITOR=vim
+
+export PATH=$PATH:$DOTFILES/bin
+
+# path for: pip install --user
+export PATH=$PATH:~/.local/bin
+
+# path for ruby gems
+export PATH=$PATH:~/.gems/bin

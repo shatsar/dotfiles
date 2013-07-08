@@ -16,5 +16,3 @@ if [ -f ~/.vimrc ]
 fi
 
 ln -s $DOTFILES/vimrc ~/.vimrc
-
-export PATH=$PATH:$DOTFILES/bin
