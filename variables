@@ -5,6 +5,7 @@ export PATH=$PATH:$DOTFILES/bin
 
 # path for: pip install --user
 export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/Applications/bin
 
 # path for ruby gems
 export PATH=$PATH:~/.gems/bin
