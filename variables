@@ -8,3 +8,5 @@ export PATH=$PATH:~/.local/bin
 
 # path for ruby gems
 export PATH=$PATH:~/.gems/bin
+
+export TOK_SERVER_HOME=$HOME/develop/TOK.TV-Server
