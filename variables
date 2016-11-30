@@ -6,7 +6,4 @@ export PATH=$PATH:$DOTFILES/bin
 export PATH=$PATH:~/.local/bin
 export PATH=$PATH:~/Applications/bin
 
-# path for ruby gems
-export PATH=$PATH:~/.gems/bin
-
 export TOK_SERVER_HOME=$HOME/develop/tok.tv/TOK.TV-Server
