@@ -1,1 +1,1 @@
-alias clip=xclip -sel clip
+alias clip='xclip -sel clip'
